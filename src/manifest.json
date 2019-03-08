@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "Boca Bola",
+    "version": "0.1",
+
+    "permissions": [
+        "<all_urls>"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["bocabola.js"]
+        }
+    ]
+}
+
+
