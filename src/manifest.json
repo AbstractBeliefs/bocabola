@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Boca Bola",
-    "version": "0.1",
+    "version": "0.2",
 
     "permissions": [
         "<all_urls>"

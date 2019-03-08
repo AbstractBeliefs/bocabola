@@ -13,4 +13,4 @@ function replaceInText(element, pattern, replacement) {
     }
 }
 
-replaceInText(document.body, "b", "🅱️");
+replaceInText(document.body, /b/gi, "🅱️");
